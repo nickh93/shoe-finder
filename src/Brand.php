@@ -1,5 +1,5 @@
 <?php
-    class Brand;
+    class Brand
     {
         private $name;
         private $id;
@@ -16,13 +16,13 @@
         }
         function getName()
         {
-            return $this->name
+            return $this->name;
         }
-        function setName()
+        function setName($brand_name)
         {
             $this->name = $brand_name;
         }
 
-        
+
     }
 ?>

@@ -4,7 +4,7 @@
         private $name;
         private $type;
         private $description;
-        private $id
+        private $id;
 
         function __construct($store_name, $store_type, $store_description, $store_id = null)
         {
@@ -32,17 +32,17 @@
         }
         function getType()
         {
-            return $this->type
+            return $this->type;
         }
         function setDescription($store_description)
         {
-            $this->description = (string) $store_description
+            $this->description = (string) $store_description;
         }
         function getDescription()
         {
-            return $this->description
+            return $this->description;
         }
-        
+
     }
 
 ?>
